@@ -246,7 +246,7 @@ const ContactSection: React.FC = () => {
     e.preventDefault();
     setStatus('Sending...');
 
-    const res = await fetch('http://localhost:3000/contact', {
+    const res = await fetch('https://api-end-point-for-contact-1.onrender.com/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
