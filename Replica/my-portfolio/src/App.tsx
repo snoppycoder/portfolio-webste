@@ -89,12 +89,12 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-white">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <ProjectCard
-              title="Telegram Bot for Daily Bible Verses"
-              description="Created a bot using node-telegram-bot-api, axios, and node-cron that sends daily Bible verses to users and responds to commands. Utilized Supabase for storing chat IDs and Render for deployment."
+              title="Dynamic Content Rendering"
+              description="Create a dynamic REST API for blogs with endpoints for CRUD operations. Provide pagination for fetching blogs."
             />
             <ProjectCard
-              title="React Login & Signup Form"
-              description="Designed a toggle system between login and signup forms using event listeners and CSS classes. Demonstrated front-end skills with a user-centric focus on functionality and accessibility."
+              title="Authentication System with React, Node.js, and JWT Tokens"
+              description="Developed a robust authentication system featuring a toggle mechanism between login and signup forms using React, event listeners, and CSS classes. Emphasized user-centric design and accessibility to enhance the user experience. Implemented secure backend authentication using NestJS with JWT tokens and Guards, ensuring data protection and streamlined user management."
             />
             <ProjectCard
               title="Sentiment Analysis Project"
@@ -111,7 +111,7 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-white">Problem-Solving Approach</h2>
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Completed over 55 LeetCode problems, including sliding window and greedy solutions, challenges in array manipulation, and the 3Sum problem using three-pointer techniques.
+              Completed over 50 LeetCode problems, including sliding window and greedy solutions, challenges in array manipulation, and the 3Sum problem using three-pointer techniques.
             </p>
             <p className="text-gray-600 dark:text-gray-300">
               Emphasizes clean, efficient code, avoiding immediate solutions to focus on developing independent problem-solving skills.
