@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { MenuIcon, MapPinIcon, PhoneIcon, InboxIcon as EnvelopeIcon, XIcon, GitlabIcon as GitHubIcon, LinkedinIcon, MailIcon, CodeIcon, BookOpenIcon, BriefcaseIcon, GraduationCapIcon, AwardIcon, UserIcon } from 'lucide-react'
+import { MenuIcon, MapPinIcon, PhoneIcon, InboxIcon as EnvelopeIcon, XIcon, GitlabIcon as GitHubIcon, LinkedinIcon, MailIcon, CodeIcon, BookOpenIcon, BriefcaseIcon, GraduationCapIcon } from 'lucide-react'
 import './App.css'
 import './HeroSection.css';
 export default function Portfolio() {
@@ -254,7 +254,7 @@ const ContactSection: React.FC = () => {
       body: JSON.stringify({ name, email, message }),
     });
 
-    const result = await res.json();
+    await res.json();
     if (res.ok) {
       setStatus('Message sent successfully!');
       setName('');
