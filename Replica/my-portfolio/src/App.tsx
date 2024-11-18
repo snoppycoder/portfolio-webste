@@ -35,7 +35,7 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-white">About Me</h2>
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Third-year Software Engineering student based in Ethiopia with a focus on full-stack development, data structures, algorithms, and software engineering best practices.
+              Third-year Software Engineering student based in Ethiopia with a focus on full-stack development, data structures, algorithms, and software engineering best practices. Currently maintaining a GPA of 3.91.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Passionate about combining logical problem-solving with creative solutions, particularly in JavaScript, React, Node.js, and TypeScript.
@@ -150,7 +150,7 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-white">Interests</h2>
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Enjoys reading books, watching podcase maily in the realm of tech, and I do like watching tech-based movies and I find it a source of relaxation and creativity, balancing intense study with personal time to refresh.
+              I have a passion for reading books and listening to podcasts, especially in the tech realm. I also enjoy watching tech-inspired movies, which serve as both a source of relaxation and a spark for creativity. This balance of intense study and personal time helps me recharge and stay inspired.
             </p>
             <p className="text-gray-600 dark:text-gray-300">
               Interested in projects that are both challenging and impactful, with a goal to contribute to open-source initiatives and deepen technical expertise.
