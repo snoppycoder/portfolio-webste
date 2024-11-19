@@ -170,7 +170,8 @@ export default function Portfolio() {
               <LinkedinIcon className="icons h-6 w-6" />
               <span className="footer linkedIn">LinkedIn</span>
             </a>
-            <a href="milkiLegesse6@gmail.com" className="links" target='_blank'>
+            <a href="mailto:Milkilegese6@gmail.com"" className="links" target='_blank'>
+            
               <MailIcon className="icons h-6 w-6" />
               <span className="footer email" >Email</span>
             </a>
